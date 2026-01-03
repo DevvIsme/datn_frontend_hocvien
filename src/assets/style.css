@@ -267,12 +267,12 @@ input[type="radio"]:is(.is_true, .is_true-gray, .is_false) {
   @apply checked:border-none checked:after:border-none after:border-none border-none;
 }
 
-input[type="radio"].is_true {
+/* input[type="radio"].is_true {
   @apply checked:after:bg-check-ok checked:after:bg-[url('@/assets/icon/Tick-checkbox.svg')] checked:bg-check-ok disabled:border-check-ok disabled:after:bg-check-ok disabled:checked:after:bg-check-ok after:border-check-ok bg-check-ok;
 }
 input[type="checkbox"]:not(.sr-only).is_true {
   @apply checked:after:bg-check-ok checked:after:bg-[url('@/assets/icon/Tick-checkbox.svg')] checked:bg-check-ok disabled:border-check-ok disabled:after:bg-check-ok disabled:checked:after:bg-check-ok after:border-check-ok bg-check-ok;
-}
+} */
 input[type="radio"].is_warning {
   @apply after:bg-[url('@/assets/Tick-checkbox.svg')] checked:after:bg-cam checked:bg-cam disabled:border-cam disabled:after:bg-cam disabled:checked:after:bg-cam after:border-cam bg-cam;
 }
