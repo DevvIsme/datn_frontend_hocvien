@@ -295,7 +295,7 @@ const lessons = ref([]);
 const currentLesson = ref(null);
 const currentPercent = ref(0);
 const loadingUpdate = ref(false);
-const api_url = "http://localhost:3000";
+const api_url = "https://datn-backend-mjeb.onrender.com";
 
 const completedCount = computed(() => {
     if (!lessons.value) return 0;
