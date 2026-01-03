@@ -1,6 +1,6 @@
 <template>
   <Header :name="nameHeader" :slug="slug" />
-  <div class="py-8 max-md:py-0">
+  <div class="py-8 max-md:py-0 min-h-screen">
     <div class="md:container mx-auto">
       <div class="grid grid-cols-5 gap-0 max-md:grid-cols-1 max-md:gap-0">
         <div class="col-span-4">
@@ -46,7 +46,7 @@ export default {
         nameHeader.value = data.exam.name; // Cấu trúc lại dữ liệu cho câu hỏi
         slug.value = data.exam.slug;
         console.log(slug.value);
-        
+
         questions.value = data.detailResult.map((item) => ({
           id: item.id,
           question: item.name,
