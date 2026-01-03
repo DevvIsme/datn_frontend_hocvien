@@ -273,13 +273,13 @@ input[type="radio"]:is(.is_true, .is_true-gray, .is_false) {
 input[type="checkbox"]:not(.sr-only).is_true {
   @apply checked:after:bg-check-ok checked:after:bg-[url('@/assets/icon/Tick-checkbox.svg')] checked:bg-check-ok disabled:border-check-ok disabled:after:bg-check-ok disabled:checked:after:bg-check-ok after:border-check-ok bg-check-ok;
 } */
-input[type="radio"].is_warning {
+/* input[type="radio"].is_warning {
   @apply after:bg-[url('@/assets/Tick-checkbox.svg')] checked:after:bg-cam checked:bg-cam disabled:border-cam disabled:after:bg-cam disabled:checked:after:bg-cam after:border-cam bg-cam;
 }
 
 input[type="radio"].is_true-gray {
   @apply after:bg-[url('@/assets/Tick-checkbox.svg')] checked:after:bg-input-blue-gray checked:bg-input-blue-gray disabled:border-input-blue-gray disabled:after:bg-input-blue-gray disabled:checked:after:bg-input-blue-gray after:border-input-blue-gray bg-input-blue-gray;
-}
+} */
 
 input[type="radio"].is_false {
   @apply after:bg-[url('@/assets/icon/xmark-solid.svg')] checked:after:bg-light-warning checked:bg-light-warning disabled:border-light-warning disabled:after:bg-[url('@/assets/icon/xmark-solid.svg')] disabled:checked:after:bg-light-warning after:border-light-warning bg-light-warning;
