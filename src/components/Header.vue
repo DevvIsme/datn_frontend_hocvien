@@ -156,7 +156,7 @@ export default {
     userAvatar() {
       // Nếu user.image có giá trị, thêm tiền tố; nếu không, sử dụng ảnh mặc định.
       return this.image
-        ? `http://localhost:3000/${this.user.avatar}`
+        ? `https://datn-backend-mjeb.onrender.com/${this.user.avatar}`
         : "@/assets/images/Default.svg";
     },
     userAvatarUrl() {
@@ -164,7 +164,7 @@ export default {
       return require('@/assets/images/default-avatar.png');
     }
     // Ghép URL localhost với tên file
-    return `http://localhost:3000/public/avatars/${this.user.avatar}`;
+    return `https://datn-backend-mjeb.onrender.com/public/avatars/${this.user.avatar}`;
   }
   },
   methods: {
