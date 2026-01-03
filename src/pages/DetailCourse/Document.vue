@@ -28,7 +28,7 @@ const toggleOpen = () => {
 // Hàm tải file
 const downloadFile = async (context: string) => {
   try {
-    const url = `http://localhost:3000/files/${context}`;
+    const url = `https://datn-backend-mjeb.onrender.com/files/${context}`;
     const response = await fetch(url);
 
     if (!response.ok) {

@@ -155,7 +155,7 @@ export default {
         this.loading = true;
         // Chú ý: Đổi URL này cho đúng với config axios của bạn
         // Nếu bạn dùng axiosInstance thì thay axios bằng axiosInstance và bỏ domain localhost đi
-        const res = await axios.get(`http://localhost:3000/api/survey/${this.slug}`);
+        const res = await axios.get(`https://datn-backend-mjeb.onrender.com/api/survey/${this.slug}`);
         
         const data = res.data.survey ? res.data : res.data.data;
         

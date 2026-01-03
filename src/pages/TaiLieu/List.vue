@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     async downloadFile(context) {
-      const url = `http://localhost:3000/files/${context}`;
+      const url = `https://datn-backend-mjeb.onrender.com/files/${context}`;
       const response = await fetch(url);
 
       if (response.ok) {
